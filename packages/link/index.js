@@ -1,7 +1,7 @@
-import LgLink from './src/link.vue'
+import ZdbLink from './src/link.vue'
 
-LgLink.install = Vue => {
-  Vue.component(LgLink.name, LgLink)
+ZdbLink.install = Vue => {
+  Vue.component(ZdbLink.name, ZdbLink)
 }
 
-export default LgLink
+export default ZdbLink

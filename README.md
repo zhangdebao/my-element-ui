@@ -81,5 +81,9 @@ module.exports = {
 npm i @rollup/plugin-json rollup-plugin-postcss @rollup/plugin-node-resolve -D -W
 ```
 
+### 生成组件
+```
+npm run plop
+```
 
 

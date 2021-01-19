@@ -1,15 +1,15 @@
-import LgLink from '../src/link.vue'
+import ZdbLink from '../src/link.vue'
 
 export default {
-  title: 'LgLink',
-  component: LgLink
+  title: 'ZdbLink',
+  component: ZdbLink
 }
 
 export const Link = _ => ({
-  components: { LgLink },
+  components: { ZdbLink },
   template: `
     <div>
-      <lg-link></lg-link>
+      <zdb-link href="http://www.baidu.com">baidu</zdb-link>
     </div>
   `
 })
