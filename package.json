@@ -11,7 +11,8 @@
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lerna": "lerna publish"
+    "lerna": "lerna publish",
+    "test": "jest"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -31,7 +32,10 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/test-utils": "^1.1.2",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
@@ -39,9 +43,11 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
+    "jest": "^26.6.3",
     "lerna": "^3.22.1",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
+    "vue-jest": "^3.0.7",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

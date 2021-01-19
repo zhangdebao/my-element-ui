@@ -42,7 +42,35 @@ lerna init
 
 npm addUser
 
+npm run lerna // 发布
+
 ```
+
+### Vue单元测试
+- 安装测试依赖
+```
+npm i jest @vue/test-utils vue-jest babel-jest -D -W
+```
+- Jest的配置
+```
+// jest.config.js
+module.exports = {
+  "testMatch": ["**/__tests__/**/*.[jt]s?(x)"],
+  "moduleFileExtensions": [
+    'js',
+    'json',
+    // 告诉 Jest处理 ’*.vue‘文件
+    'vue'
+  ],
+  transform: {
+    // 用 `vue-jest`处理'.vue'文件
+    '.*\\.(vue)$': "vue-jest",
+    // 用 'babel-jest'处理js
+    '.*\\.(js)': 'babel-jest'
+  }
+}
+```
+### 桥接 `npm i babel-core@bridge -D -W`
 
 
 
