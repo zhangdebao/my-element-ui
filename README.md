@@ -2,7 +2,7 @@
  * @Author: zdb
  * @Date: 2021-01-18 16:27:21
  * @LastEditors: zdb
- * @LastEditTime: 2021-01-18 16:33:41
+ * @LastEditTime: 2021-01-19 10:42:07
  * @Description: file content
 -->
 # my-element-ui
@@ -35,6 +35,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 vue create my-element-ui
 npx sb init 
+
+yarn workspace lg-button add lodash@4
+
+lerna init
 ```
 
 
