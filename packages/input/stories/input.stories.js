@@ -7,9 +7,9 @@ export default {
 
 export const Text = () => ({
   components: {
-    LgInput
+    ZdbInput
   },
-  template: '<lg-input v-model="value"></lg-input>',
+  template: '<zdb-input v-model="value"></zdb-input>',
   data() {
     return {
       value: 'admin'
@@ -18,8 +18,8 @@ export const Text = () => ({
 }) // 返回一个对象， 所以加()
 
 export const password = () => ({
-  components: { LgInput },
-  template: '<lg-input type="password" v-model="value"></lg-input>',
+  components: { ZdbInput },
+  template: '<zdb-input type="password" v-model="value"></zdb-input>',
   data() { 
     return {
       value: 'admin'
