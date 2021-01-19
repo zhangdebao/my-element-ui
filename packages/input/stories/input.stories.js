@@ -1,8 +1,8 @@
-import LgInput from '../'
+import ZdbInput from '../'
 
 export default {
-  title: 'LgInput',
-  component: LgInput
+  title: 'ZdbInput',
+  component: ZdbInput
 }
 
 export const Text = () => ({

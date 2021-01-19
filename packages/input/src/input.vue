@@ -1,3 +1,10 @@
+<!--
+ * @Author: zdb
+ * @Date: 2021-01-18 16:43:35
+ * @LastEditors: zdb
+ * @LastEditTime: 2021-01-19 11:01:32
+ * @Description: file content
+-->
 <template>
     <div>
       <input v-bind="$attrs" :type="type" :value="value" @input="handlerInput">
@@ -5,7 +12,7 @@
 </template>
 <script>
 export default {
-  name: 'LgInput',
+  name: 'ZdbInput',
   inheritAttrs: false, // 禁用默认继承伏组件属性
   props: {
     value: {

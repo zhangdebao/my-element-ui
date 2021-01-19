@@ -1,8 +1,15 @@
+<!--
+ * @Author: zdb
+ * @Date: 2021-01-18 16:43:12
+ * @LastEditors: zdb
+ * @LastEditTime: 2021-01-19 11:02:12
+ * @Description: file content
+-->
 <template>
-  <div class="lg-steps">
-    <div class="lg-steps-line"></div>
+  <div class="zdb-steps">
+    <div class="zdb-steps-line"></div>
     <div
-      class="lg-step"
+      class="zdb-step"
       v-for="index in count"
       :key="index"
       :style="{ color: active >= index ? activeColor : defaultColor }"
@@ -15,7 +22,7 @@
 <script>
 import './steps.css'
 export default {
-  name: 'LgSteps',
+  name: 'ZdbSteps',
   props: {
     count: {
       type: Number,

@@ -1,3 +1,10 @@
+<!--
+ * @Author: zdb
+ * @Date: 2021-01-18 16:44:07
+ * @LastEditors: zdb
+ * @LastEditTime: 2021-01-19 11:00:51
+ * @Description: file content
+-->
 <template>
   <form action="">
     <slot></slot>
@@ -5,7 +12,7 @@
 </template>
 <script>
 export default {
-  name: 'LgForm',
+  name: 'ZdbForm',
   provide () {
     return {
       form: this

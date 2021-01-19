@@ -1,27 +1,27 @@
-import LgForm from '../'
-import LgFormItem from '../../formItem/'
-import LgInput from '../../input/'
-import LgButton from '../../button'
+import ZdbForm from '../'
+import ZdbFormItem from '../../formItem/'
+import ZdbInput from '../../input/'
+import ZdbButton from '../../button'
 
 export default {
-  title: 'LgForm',
-  component: LgForm
+  title: 'ZdbForm',
+  component: ZdbForm
 }
 
 export const Login = () => ({
-  components: { LgForm, LgFormItem, LgInput, LgButton },
+  components: { ZdbForm, ZdbFormItem, ZdbInput, ZdbButton },
   template: `
-    <lg-form class="form" ref="form" :model="user" :rules="rules">
-      <lg-form-item label="用户名" prop="username">
-        <lg-input :value="user.username" @input="user.username=$event" placeholder="请输入用户名"></lg-input>
-      </lg-form-item>
-      <lg-form-item label="密码" prop="password">
-        <lg-input type="password" v-model="user.password"></lg-input>
-      </lg-form-item>
-      <lg-form-item>
-        <lg-button type="primary" @click="login">登 录</lg-button>
-      </lg-form-item>
-    </lg-form>  
+    <zdb-form class="form" ref="form" :model="user" :rules="rules">
+      <zdb-form-item label="用户名" prop="username">
+        <zdb-input :value="user.username" @input="user.username=$event" placeholder="请输入用户名"></zdb-input>
+      </zdb-form-item>
+      <zdb-form-item label="密码" prop="password">
+        <zdb-input type="password" v-model="user.password"></zdb-input>
+      </zdb-form-item>
+      <zdb-form-item>
+        <zdb-button type="primary" @click="login">登 录</zdb-button>
+      </zdb-form-item>
+    </zdb-form>  
   `,
   data () {
     return {

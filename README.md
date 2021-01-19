@@ -2,7 +2,7 @@
  * @Author: zdb
  * @Date: 2021-01-18 16:27:21
  * @LastEditors: zdb
- * @LastEditTime: 2021-01-19 10:42:07
+ * @LastEditTime: 2021-01-19 10:58:50
  * @Description: file content
 -->
 # my-element-ui
@@ -39,6 +39,9 @@ npx sb init
 yarn workspace lg-button add lodash@4
 
 lerna init
+
+npm addUser
+
 ```
 
 

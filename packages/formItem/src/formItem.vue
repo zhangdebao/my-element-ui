@@ -1,3 +1,10 @@
+<!--
+ * @Author: zdb
+ * @Date: 2021-01-18 16:49:39
+ * @LastEditors: zdb
+ * @LastEditTime: 2021-01-19 11:01:10
+ * @Description: file content
+-->
 <template>
   <div>
     <label for="">{{label}}</label>
@@ -10,7 +17,7 @@
 <script>
 import AsyncValidator from 'async-validator'
 export default {
-  name: 'LgFormItem',
+  name: 'ZdbFormItem',
   inject: ['form'],
   props: {
     label: {

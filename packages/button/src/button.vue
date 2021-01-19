@@ -7,7 +7,7 @@
 </template>
 <script>
 export default {
-  name: 'Lgbutton',
+  name: 'Zdbbutton',
   methods: {
     handlerClick (evt) {
       this.$emit('click', evt)
