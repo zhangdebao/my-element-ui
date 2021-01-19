@@ -72,5 +72,14 @@ module.exports = {
 ```
 ### 桥接 `npm i babel-core@bridge -D -W`
 
+##### 单个打包 `yarn workspace zdb-button run build`
+
+### 批量打包
+- plugin-json  可以把json文件当作模块加载
+- plugin-node-resolve 把依赖的第三方包打包进来
+```
+npm i @rollup/plugin-json rollup-plugin-postcss @rollup/plugin-node-resolve -D -W
+```
+
 
 
